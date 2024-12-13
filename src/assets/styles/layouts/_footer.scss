@@ -1,0 +1,33 @@
+@font-face {
+  font-family: layouts;
+  src: url('../../fonts/CallunaRegular.ttf');
+}
+
+footer {
+    background-color: #1a1a1a; 
+    color: white; 
+  
+    h5 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15pt;
+    }
+    .list-unstyled {
+      font-size: 12pt;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+      a {
+        color: white;
+  
+        &:hover {
+          transition: ease-out 0.1s;
+          scale:1.2;
+          color: #ccc; 
+      }
+    }
+  }
+}

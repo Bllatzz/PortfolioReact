@@ -1,0 +1,20 @@
+.navLink:hover{
+    background-color: #464646;
+    border-radius: 10px;
+} 
+.navLink{
+    text-align: center;
+}
+.navBar-toggle.navLink.nav-link{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navBar{
+    height: 6vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+

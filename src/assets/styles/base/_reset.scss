@@ -1,0 +1,55 @@
+$main:#19181A;
+$layout:#292A2B;
+
+@font-face {
+  font-family: font;
+  src: url('../../fonts/LeagueSpartan.otf');
+}
+@font-face {
+  font-family: layouts;
+  src: url('../../fonts/CallunaRegular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  img {
+    max-width: 100%;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  
+  footer,.navBar{
+    font-family: 'layouts',sans-serif;
+    font-weight:600 ;
+    background-color: $layout;
+  }
+  main{
+    overflow-y: hidden;
+    height: 75.5vh;
+    background-color:$main;
+  }
+
+  html,
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  button {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  li a,
+  a {
+    text-decoration: none;
+  }
+   
